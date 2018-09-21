@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/imgDetail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/txtDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        app:fontFamily="@font/bree_serif"
+        tools:text="Tidak sah rasanya jika berlibur ke tempat wisata di Makassar tanpa bernarsis ria mengunjungi Pantai Losari. Landmark terkenal dari Kota Daeng ini tak pernah sepi dari pengunjung. Keindahan sunsetnya tak pernah jemu dipandang. Saat malam hari, tempat ini menjadi pusat kuliner dengan sajian makanan enak seperti pisang epe, es kelapa, dan lainnya." />
+
+    <ImageView
+        android:id="@+id/imgMaps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:src="@color/colorPrimaryDark" />
+</LinearLayout>
